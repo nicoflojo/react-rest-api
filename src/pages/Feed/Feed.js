@@ -112,7 +112,7 @@ class Feed extends Component {
       url = 'URL';
     }
 
-    fetch(url, { 
+    fetch(url, {
       method: method,
       headers: {
         'Content-Type': 'application/json'
